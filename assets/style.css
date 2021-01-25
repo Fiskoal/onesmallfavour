@@ -1,0 +1,30 @@
+body{
+  margin:0 auto;
+  height: 100% auto;
+  font-family: "Segoe UI",Arial,sans-serif;
+  
+}
+
+.bg {
+  background-image: url(images/lummy-castle.png);
+  background-color: #555;
+  height: 910px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome h1 {
+  font-size: 50px;
+  font-family: "Segoe UI",Arial,sans-serif;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 200px;
+}
+
+#small {
+  color:#38a8ff;
+}

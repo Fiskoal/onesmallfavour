@@ -1,0 +1,8 @@
+.home-info {
+  overflow: auto;
+  display: block;
+  position: relative;
+  background: rgb(66, 66, 66);
+  height: 1000px;
+  width: 100%;
+}
