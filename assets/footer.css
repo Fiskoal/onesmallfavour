@@ -1,0 +1,23 @@
+.footer {
+  color: rgb(165, 165, 165);
+}
+
+.footerbar {
+  position:relative;
+}
+
+#footerbar {
+  background-color:rgb(109, 109, 109);
+  border-style: none;
+  height: 1px;
+  width: 50vw;
+}
+
+.footer p {
+  position:absolute;
+  top: 0;
+  left: 25vw;
+  text-align:center;
+  font-size: 15px;
+  padding-bottom: 18px;
+}
