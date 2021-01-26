@@ -1,0 +1,65 @@
+.bg {
+  background-image:url(images/lummy-castle.png);
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#welcome {
+  font-family: "Segoe UI",Arial,sans-serif;
+  color: white;
+  position: relative;
+  text-align: center;
+  top:30vh;
+}
+
+#welcome h1 {
+  font-size: 50px;
+  text-shadow: 2px 2px black;
+}
+
+#blue {
+  color:#38a8ff;
+}
+
+#welcome h2 {
+  text-shadow: 1px 1px black;
+}
+
+#welcome p {
+  display:inline-block;
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  margin-right: 30px;
+  font-weight: bold;
+  text-align: left;
+  max-width: 250px;
+}
+
+.trybutton {
+  width: 100%;
+  margin: auto;
+  max-width: 600px;
+}
+
+.trybutton a{
+  display:inline-block;
+  position: relative;
+  bottom: 20px;
+  background-color: #38a8ff;
+  color: white;
+  font-family: "Segoe UI",Arial,sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  padding:8px;
+  border-radius: 4px;
+}
+
+.trybutton a:hover {
+  background-color: #3491dd;
+}

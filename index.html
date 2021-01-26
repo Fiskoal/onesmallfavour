@@ -4,9 +4,10 @@
   <head>
     <title>Home - One Small Favour</title>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/welcome.css">
     <link rel="stylesheet" type="text/css" href="assets/navbar.css">
     <link rel="stylesheet" type="text/css" href="assets/homeinfo.css">
-    <link rel="stylesheet" type="text/css" href="assets/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/footer.css">   
   </head>  
   <body>   
   <div class="container">    
@@ -29,14 +30,16 @@
     </div>
     </div>
     <!-- welcome text -->
-    <div id="bg">
+    <div class="bg">
       <div id="welcome">
         <h1>ONE <span id="blue">SMALL</span> FAVOUR</h1>
         <h2>"...although things turn out to be less simple than that"</h2>
     <!-- <p> and the button are kept within the same div, because i wanted to keep them connected when moving them-->
-        <div id="trybutton">
-        <p>A simple & free tool <br> to help set goals for yourself <br> in Old School RuneScape</p>
-        <a href="#" class="trybutton">Try it Now</a> 
+        <div class="trybutton">
+        <div class="trybuttoncontainer">
+        <p>A simple & free tool to help set goals for yourself in Old School RuneScape</p>
+        <a href="#" id="trybutton">Try it Now</a>
+        </div>
         </div>        
       </div>
       </div>        
@@ -45,15 +48,24 @@
     <div class="home-info">
       <div id="features">
         <h1>FEATURES</h1>
-        <p>Placeholder text</p>
+        <hr id="bbar">
+        <p>Quisque hendrerit urna vel velit porta ornare at in lorem. Vestibulum sagittis, nisl eu volutpat consectetur, dui ante pretium ipsum, ut placerat lectus elit vel sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In consequat felis et dui vestibulum, ac laoreet velit dapibus. Nulla et justo sit amet sem luctus maximus. Nam ornare lorem mauris, non mattis sapien maximus ut. Sed tortor libero, elementum quis eleifend vel, blandit non tellus. Duis volutpat elementum tortor.
+          <p></p>
+          Aenean molestie neque non orci vulputate congue. Suspendisse facilisis, massa sed ultricies commodo, est nunc accumsan lacus, eget malesuada turpis diam sit amet lorem. Fusce ut felis non nulla accumsan condimentum et eget neque. Nulla vel risus vitae diam eleifend suscipit quis tempor magna. In ut diam vitae justo laoreet consectetur non vel tellus. Cras sollicitudin nibh quis mauris pretium imperdiet. Nullam porta, odio at molestie malesuada, massa nisi ultricies dui, a varius urna velit sed libero. Maecenas et nibh consectetur, tincidunt risus nec, eleifend libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sed scelerisque nibh. Nulla et diam feugiat, bibendum sem sit amet, condimentum nisi. Fusce sed diam maximus, mattis nunc molestie, porta orci. Donec egestas ante commodo velit tincidunt lobortis. Aenean sodales magna lectus, in vehicula est commodo vitae. Morbi fermentum nisi massa, vitae vehicula nisl facilisis quis. In consequat lorem id nisi varius lacinia.</p>
       </div>
       <div id="news">
         <h1>NEWS</h1>
-        <p>Placeholder text</p>
+        <hr id="bbar">
+        <p>Proin nec nulla in diam maximus vestibulum. In volutpat magna nec facilisis suscipit. Nunc vehicula nec nulla quis lobortis. Mauris dapibus dolor sem, eu accumsan lacus lacinia ac. Morbi ornare orci sed eros egestas vulputate. Sed semper blandit neque sit amet egestas. Etiam commodo est a nibh faucibus, ut lobortis ex eleifend. Integer eu nisi sed eros efficitur accumsan vitae viverra dolor. Nam rhoncus dui erat, et gravida nunc hendrerit id. Quisque id enim aliquam, mollis mi eget, tristique ipsum.
+          <p></p>
+          Sed volutpat viverra lectus, a euismod nulla eleifend vitae. Donec fringilla scelerisque mi, ut varius tellus viverra aliquam. Phasellus vitae maximus mi. Duis vel tortor sed ante bibendum interdum eget ac quam. Sed sed gravida lectus. Sed suscipit scelerisque condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sit amet est massa. Nullam hendrerit mi ac mi fringilla dapibus. Vivamus eleifend pulvinar aliquet.</p>
       </div>    
       <div id="aboutme">
         <h1>ABOUT ME</h1>
-        <p>Placeholder text</p>
+        <hr id="bbar">
+        <p>Phasellus auctor leo purus, vel finibus lorem pretium sodales. Maecenas mauris nisi, gravida nec ligula eget, hendrerit tempus nibh. Aliquam a odio nisi. Curabitur eu ornare libero. Proin a eros porttitor, tristique erat eget, vestibulum enim. Nam dignissim nisl quam, at lobortis leo varius a. Cras in nisl non lectus interdum gravida. Nunc porttitor sollicitudin risus sed semper. Sed sit amet fermentum libero, vel scelerisque orci. Curabitur ac rutrum sem. Pellentesque quis lectus nunc.
+        <p></p>
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus eu neque porta, molestie nisi vitae, bibendum mi. Nulla in tellus quis diam pretium interdum. Maecenas rutrum eros non arcu interdum, eu congue libero bibendum. Morbi porta massa in vulputate semper. Aenean a diam in urna vestibulum ultrices. Pellentesque quis velit facilisis leo eleifend consequat. Proin feugiat neque ac sem varius luctus. Donec eget rhoncus ante. Fusce nulla nunc, aliquet ut arcu sed, dictum vehicula erat.</p>
       </div>      
     </div>
     <!-- the footer is kind of a mess, but it's how i made the <p> fixed to the <hr>, maybe figure out a better way to do it? --> 

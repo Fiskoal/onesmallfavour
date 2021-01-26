@@ -9,9 +9,9 @@
 }
 
 .navbar img {
-  padding-top: 15px;
   height: 40.5px;
   margin-left:20px;
+  padding-top: 15px;
 }
 
 .navbar ul {
@@ -21,7 +21,7 @@
 }
 
 .navbar a:hover {
-color: #38a8ff;
+  color: #38a8ff;
 }
 
 .navbar a {
@@ -31,23 +31,16 @@ color: #38a8ff;
   height: 50px;
   margin-right: 10px;
   margin-left: 10px;
-  text-shadow: 1px 1px black;
- }
+}
 
- .right-navbar {
+.right-navbar {
   float:right;
   margin-right: 10px;
- }
-
-.left-navbar-item{
-  float:left;
-  text-align: center;
-  font-size: 20px;
 }
 
+.left-navbar-item,
 .right-navbar-item{
   float: left;
-  text-align:center;
-  font-size: 20px;
+  text-align: center;
+  font-size: calc(0.8vw + 5px);
 }
-
