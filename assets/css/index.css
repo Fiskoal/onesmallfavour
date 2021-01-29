@@ -44,13 +44,13 @@ header {
   max-width: 250px;
 }
 
-.trybutton {
+#trybutton {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.trybutton button{
+#trybutton button{
   background-color: #38a8ff;
   color: white;
   font-family: "Segoe UI",Arial,sans-serif;
@@ -60,18 +60,18 @@ header {
   border-radius: 8px;
 }
 
-.trybutton button:hover {
+#trybutton button:hover {
   background-color: #3491dd;
 }
 
-.trybutton button:active {
+#trybutton button:active {
   outline:none;
   box-shadow: 0 0 10px black inset;
 }
 
 main {
   height:100%;
-  margin: 100px auto;
+  margin: 50px auto;
   width: 90vw;
   max-width: 1000px;
   font-family: "Segoe UI",Arial,sans-serif;
@@ -79,9 +79,7 @@ main {
   box-sizing:border-box;
 }
 
-#features,
-#news,
-#aboutme {
+main section {
   padding: 1px 20px 12px 20px;
   border-radius:10px;
   background: rgb(66, 66, 66);
@@ -90,6 +88,8 @@ main {
 
 main h3 {
   text-align: center;
+  margin-bottom: 0;
+  margin-top: 16px;
 }
 
 .home-info hr {

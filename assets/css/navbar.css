@@ -1,4 +1,5 @@
 nav {
+  overflow: auto;
   display: flex;
   position: fixed;
   top: 0;
@@ -19,6 +20,7 @@ nav img {
 }
 
 nav a {
+  font-size: 20px;
   text-decoration: none;
   color: white;
   line-height: 55px;
