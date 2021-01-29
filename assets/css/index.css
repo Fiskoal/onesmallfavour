@@ -1,0 +1,121 @@
+header {
+  position:relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+}
+
+#bg {
+  position: absolute;
+  transform: scale(1.1);
+  background-image:url(../images/lummy-castle.png);
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 65%;
+  filter:blur(2px);
+}
+
+#welcome {
+  position: absolute;
+  margin: auto;
+  font-family: "Segoe UI",Arial,sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#blue {
+  color:#38a8ff;
+}
+
+#welcome h3 {
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  margin-right: 30px;
+  font-weight: bold;
+  text-align: left;
+  max-width: 250px;
+}
+
+.trybutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trybutton button{
+  background-color: #38a8ff;
+  color: white;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding:8px;
+  border-radius: 8px;
+}
+
+.trybutton button:hover {
+  background-color: #3491dd;
+}
+
+.trybutton button:active {
+  outline:none;
+  box-shadow: 0 0 10px black inset;
+}
+
+main {
+  height:100%;
+  margin: 100px auto;
+  width: 90vw;
+  max-width: 1000px;
+  font-family: "Segoe UI",Arial,sans-serif;
+  color: white;
+  box-sizing:border-box;
+}
+
+#features,
+#news,
+#aboutme {
+  padding: 1px 20px 12px 20px;
+  border-radius:10px;
+  background: rgb(66, 66, 66);
+  margin-bottom: 50px;
+}
+
+main h3 {
+  text-align: center;
+}
+
+.home-info hr {
+  border-style: none;
+  height: 1px;
+  background-color: #38a9ff91;
+  width: 25vw;
+}
+
+footer {
+  position: relative;
+  color: rgb(165, 165, 165);
+  font-size: 15px;
+}
+
+footer hr {
+  background-color:rgb(109, 109, 109);
+  border-style: none;
+  height: 1px;
+  width: 50vw;
+}
+
+footer p {
+  position: absolute;
+  margin: 0;
+  left: 25vw;
+  text-align: center;
+  padding-bottom: 10px;
+}
